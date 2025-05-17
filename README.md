@@ -21,10 +21,10 @@ O sistema de verificação de fake news é dividido em cinco agentes distintos, 
 
 
 ## 🛠️ Ferramentas utilizadas
-- **PYTHON:** Estruturação do projeto
-- **GOOGLE COLAB:** Plataforma online e gratuita, oferecida pelo Google, que permite aos utilizadores escrever e executar código Python
-- **GOOGLE GEMINI:** É uma inteligência artificial (IA)
-- **GEMINI API:** Ferramenta de busca (google-search)
+- **Python:** Estruturação do projeto
+- **Google Colab:** Plataforma online e gratuita, oferecida pelo Google, que permite aos utilizadores escrever e executar código Python
+- **Google Gemini:** É uma inteligência artificial (IA)
+- **Gemini API:** Ferramenta de busca (google-search)
 - **Git:** Ferramenta de versionamento
 
 
