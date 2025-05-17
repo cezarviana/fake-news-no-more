@@ -7,9 +7,9 @@ Este projeto implementa um sistema multi-agente utilizando o modelo de IA (Intel
 Acesse o site aqui: [Fake News No More](https://colab.research.google.com/drive/1XRzrJzx8PXhdT-6y6Fi30TQTYbUaFNGz?usp=sharing)
 
 É possível verificar alguns testes realizados abaixo: <br>
-[Fake News No More - Test 1](./test1_fake_news_no_more_(tarifas_eua).ipynb) <br>
-[Fake News No More - Test 2](./test2_fake_news_no_more_(et_varginha).ipynb) <br>
-[Fake News No More - Test 3](./test3_fake_news_no_more_(terra_plana).ipynb)
+[Fake News No More - Test 1 (Tarifas dos EUA vão favorecer a sua economia?)](./test1_fake_news_no_more_(tarifas_eua).ipynb) <br>
+[Fake News No More - Test 2 (Et de Varginha)](./test2_fake_news_no_more_(et_varginha).ipynb) <br>
+[Fake News No More - Test 3 (terra plana)](./test3_fake_news_no_more_(terra_plana).ipynb)
 
 
 ## 🔎 Funcionalidades
