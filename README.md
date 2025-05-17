@@ -6,6 +6,8 @@ Este projeto implementa um sistema multi-agente utilizando o modelo de IA (Intel
 
 Acesse o site aqui: [Fake News No More](https://colab.research.google.com/drive/1XRzrJzx8PXhdT-6y6Fi30TQTYbUaFNGz?usp=sharing)
 
+
+
 ## 🔎 Funcionalidades
 O sistema de verificação de fake news é dividido em cinco agentes distintos, cada um com uma função específica no processo de análise:
 
