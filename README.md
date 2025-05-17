@@ -1,7 +1,7 @@
 # ⚡ Fake News No More
 
 ## 📝 Descrição do Projeto
-Este projeto implementa um sistema multi-agente utilizando o modelo Gemini para verificar a veracidade de informações online. O sistema é composto por cinco agentes especializados que colaboram para analisar notícias e determinar se são verdadeiras ou falsas.
+Este projeto implementa um sistema multi-agente utilizando o modelo de IA (Inteligência Artificial) Gemini para verificar a veracidade de informações online. O sistema é composto por cinco agentes especializados que colaboram para analisar notícias e determinar se são verdadeiras ou falsas.
 
 
 Acesse o site aqui: [Fake News No More](https://colab.research.google.com/drive/1XRzrJzx8PXhdT-6y6Fi30TQTYbUaFNGz?usp=sharing)
