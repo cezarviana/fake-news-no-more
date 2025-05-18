@@ -75,7 +75,8 @@ O sistema de verificação de fake news é dividido em cinco agentes distintos, 
 
 ## 💭 Possíveis atualizações futuras
 - Finalizar o README ✅
-- Melhorar a apresentação do resultado da pesquisa
+- Melhorar a apresentação e visual do Agente
+- Melhorar a parte usuabilidade, para facilitar o uso pelo usuário
 
 ## 🚀 Como rodar o projeto
 Siga os passos abaixo para executar o projeto na sua máquina:
