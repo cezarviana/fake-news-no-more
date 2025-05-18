@@ -75,7 +75,8 @@ def agente_buscador(topico, data_de_hoje):
         Você é parte de um sistema colaborativo de verificação de notícias. Siga rigorosamente as instruções específicas da sua função para analisar o tópico fornecido e contribuir para a determinação da sua veracidade.
         Sua função é ser um assistente de pesquisa. A sua tarefa é usar a ferramenta de busca google (google_search) para recuperar as últimas notícias de lançamentos muito relevantes sobre o tópico abaixo.
         Priorize fontes jornalísticas reconhecidas e com boa reputação.
-        Selecione no máximo 5 lançamentos que demonstrem relevância (baseada na cobertura e qualidade da fonte) e sejam os mais atuais possíveis.
+        Selecione no máximo 5 lançamentos que demonstrem relevância (baseada na cobertura e qualidade da fonte) e sejam os mais atuais possíveis, desde que sejam fontes jornalísticas reconhecidas e com boa reputação.
+        Para cada lançamento relevante, forneça o título, um breve resumo e o **link direto para a notícia**.
         Se o tópico não possuir 5 notícias a seu respeito, apresente somente as encontradas. Sem adicionar outras notícias com termos parecidos e que não tenham relação direta com o tópico.
         Se o tópico gerar pouca cobertura noticiosa ou reações limitadas, sinalize essa baixa relevância como um possível indicativo para considerar outros tópicos.
         Esses lançamentos relevantes devem ser atuais, de no máximo um mês antes da data de hoje.
@@ -207,7 +208,23 @@ def agente_organizador_resultado(topico, lancamentos_buscados, verificacao_fonte
         Sua função é organizar os resultados com base nas análises dos outros agentes sobre o tópico, e determinar a veracidade da informação.
         Apresente um veredicto claro: Verdadeiro, Falso, Enganoso, Insustentável, etc.
         Justifique sua conclusão de forma concisa, utilizando as evidências e os resultados fornecidos pelos outros agentes (agente_buscador, agente_verificador_fontes, agente_verificador_conteudo e agente_verificador_fatos).
+        Preste atenção aos lançamentos buscados e inclua os **links das fontes relevantes** no resultado final, se disponíveis.
+        Inclua os **links das fontes relevantes formatados em Markdown ([Fonte - Texto do Link](URL do Link))** no resultado final, se disponíveis.
         Liste as fontes mais relevantes (sites de notícias confiáveis, agências de fact-checking) que sustentam sua conclusão.
+
+        Padrão de Resultado:
+        - Escrever um resumo da verifição do tópico neste ponto.
+        - Parecer: VERDADEIRO, FALSO, ENGANOSO, INSUSTENTÁVEL, etc.
+        - Justificativas:
+          - Justificativa 1.
+          - Justificativa 2.
+          - Justificativa 3.
+          - Justificativa n.
+        - Fontes relevantes:
+          - ([Fonte 1 - Texto do Link da Fonte 1](URL do Link da Fonte 1)).
+          - ([Fonte 2 - Texto do Link da Fonte 2](URL do Link da Fonte 2)).
+          - ([Fonte 3 - Texto do Link da Fonte 3](URL do Link da Fonte 3)).
+          - ([Fonte n - Texto do Link da Fonte n](URL do Link da Fonte n)).
         """,
         description="Agente que organiza os resultados da verificação",
         tools=[google_search]
@@ -217,6 +234,9 @@ def agente_organizador_resultado(topico, lancamentos_buscados, verificacao_fonte
     # Executa o agente
     resultado = call_agent(organizador,  entrada_do_agente_organizador_resultado)
     return resultado
+
+
+#########################################################################
 
 
 data_de_hoje = date.today().strftime("%d/%m/%Y")
